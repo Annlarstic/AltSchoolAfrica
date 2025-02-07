@@ -1,0 +1,42 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f4f4f4;
+}
+
+.container {
+display: flex;
+width: 97%;
+justify-content: space-around;
+}
+
+.box {
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+
+.box1 {
+width: 44%;
+}
+
+.box2 {
+width: 24%;
+}
+
+.box3 {
+width: 17%;
+}
+
+img {
+width: 100%;
+height: auto;
+}

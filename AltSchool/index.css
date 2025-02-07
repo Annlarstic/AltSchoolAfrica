@@ -1,0 +1,21 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f8fdfb;
+margin: 0;
+}
+
+.image-container {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.image-container img {
+max-width: 70%;
+height: auto;
+border-radius: 8px;
+}

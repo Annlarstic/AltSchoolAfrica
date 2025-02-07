@@ -1,0 +1,56 @@
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto; 
+padding: 20px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+background-color: #f9f9f9;
+}
+
+.container img {
+width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+.no-space {
+margin-bottom: 0; 
+}
+
+    
+/*Phones  Media query  */
+@media (max-width: 600px) {
+.container {
+padding: 10px;
+}
+
+.container img {
+border-radius: 5px;
+}
+}
+
+/* Tablets Media query   */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+.container {
+padding: 15px;
+}
+
+.container img {
+border-radius: 8px;
+}
+}
+
+/* Laptops Media query */
+@media (min-width: 1025px) and (max-width: 1440px) {
+.container {
+padding: 20px;
+}
+
+.container img {
+border-radius: 10px;
+}
+}

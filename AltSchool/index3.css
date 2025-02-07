@@ -1,0 +1,25 @@
+.container {
+display: flex;
+justify-content: space-between; 
+align-items: center;
+padding: 20px;
+}
+
+.image1 {
+width: 62%;
+height: 100vh;
+background-color: white;
+}
+
+.image2 {
+width: 28%;
+}
+
+
+.centered-image {
+display: flex;
+justify-content: center;
+/* align-items: center; */
+height: 100vh; 
+padding: 20px;
+}
